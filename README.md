@@ -1,5 +1,5 @@
 # effective-giggle
-A simple script that tests your Astro-Pi setup. Written in less than 48 hours. 
+A simple script that tests your Astro-Pi setup. 
 
 Hardware Requirements: 
 - Raspberry Pi 3, Model B or Model B+
