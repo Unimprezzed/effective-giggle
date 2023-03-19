@@ -1,5 +1,5 @@
 # effective-giggle
-A simple script that tests your Astro-Pi setup. 
+A simple script that tests your Astro-Pi setup. This script was written with 32-bit in mind, but I'm going to rewrite it to support 64-bit Raspberry Pi OS, which should make it backwards compatible with 32-bit
 
 Hardware Requirements: 
 - Raspberry Pi 3, Model B or Model B+
