@@ -8,15 +8,14 @@ Hardware Requirements:
 
 Package Requirements: 
 - Numpy
-- OpenCV (This was done with a fresh build, following instructions found here: https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
-- picamera with array module (pip install "picamera[array]")
+- OpenCV
 - sense-hat
 
 Recommended: 
 -virtualenv (for running in a virtual environment)
 
 How to use: 
-This script can be run "python3 LowResCamera.py". That's all there is to it! 
+This script can be run "python App.py". That's all there is to it! 
 
 Description: 
 When run, this program will use the camera to produce a live video feed thresholded to 15 frames per second (any faster results in a really dark image). The script then uses OpenCV to reduce the size of the image so that it can be output to the SenseHat's 8x8 LED display and display the current output of the SenseHat's sensors. 
