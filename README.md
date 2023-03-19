@@ -8,6 +8,8 @@ There is a new version detailed at https://projects.raspberrypi.org/en/projects/
 Differences between v1 and v2 of the AstroPi flight case: 
  - v2 has 2 buttons instead of 4
  - v2 has a PIR sensor for detecting movement 
+ - v2 uses the High Quality Camera for the Raspberry Pi. v1 uses the regular camera module
+ - v2 uses is built for the Pi 4, v1 was for the Pi 2 or Pi 3
 
 Hardware Requirements: 
 - Raspberry Pi 4 or 3, Model B or Model B+
@@ -23,7 +25,7 @@ Recommended:
 -virtualenv (for running in a virtual environment)
 
 How to use: 
-This script can be run "python App.py". That's all there is to it! 
+This script can be run "python SenseHatCamera.py". That's all there is to it! 
 
 Description: 
 When run, this program will use the camera to produce a live video feed thresholded to 15 frames per second (any faster results in a really dark image). The script then uses OpenCV to reduce the size of the image so that it can be output to the SenseHat's 8x8 LED display and display the current output of the SenseHat's sensors. 
