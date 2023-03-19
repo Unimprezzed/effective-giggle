@@ -28,6 +28,9 @@ if __name__ == "__main__":
 
     #Set up the camera
     cap = cv2.VideoCapture(0)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 608)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 608)
+    cap.set(cv2.CAP_PROP_FPS, 15)
     if not cap.isOpened():
         print("Fatal Error: Cannot open camera")
         exit()
