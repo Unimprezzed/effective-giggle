@@ -36,6 +36,8 @@ if __name__ == "__main__":
         exit()
     else:
         while True:
+            #Clear the screen from the last update
+            sense.clear()
             #Read the camera
             ret, frame = cap.read()
             if not ret:

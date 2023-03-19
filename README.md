@@ -1,8 +1,12 @@
 # effective-giggle
-A simple script that tests your Astro-Pi setup. This script was written with 32-bit in mind, but I'm going to rewrite it to support 64-bit Raspberry Pi OS, which should make it backwards compatible with 32-bit
+A simple script that tests your Astro-Pi setup. This script was written with the 32-bit OS in mind, but I'm going to rewrite it to support 64-bit Raspberry Pi OS, which should make it backwards compatible with the older version.
+
+The AstroPi Setup: 
+This was based off of an archived project detailed at https://projects.raspberrypi.org/en/projects/astro-pi-flight-case. The script was made to test this version. 
+There is a new version detailed at https://projects.raspberrypi.org/en/projects/astro-pi-flight-case-mk2, but this script should be compatible with both versions of the flight case + hardware set up, since it's only testing the SenseHat and camera. 
 
 Hardware Requirements: 
-- Raspberry Pi 3, Model B or Model B+
+- Raspberry Pi 4 or 3, Model B or Model B+
 - Raspberry Pi Camera Module
 - Raspberry Pi SenseHat
 
